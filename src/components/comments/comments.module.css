@@ -1,0 +1,43 @@
+.container {
+    margin-top: 40px;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.write {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.input {
+    padding: 15px;
+    width: 100%;
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    .write {
+        gap: 10px;
+    }
+}
+    

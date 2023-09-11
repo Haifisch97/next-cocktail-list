@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userImageContainer {
+    position: relative;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--softTextColor);
+}

@@ -1,0 +1,57 @@
+
+.title {
+    margin: 50px 0;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    min-width: 200px;
+    padding: 20px 30px;
+    justify-content: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.category.long {
+    background-color: #57c4ff31;
+}
+.category.short {
+    background-color: #da85c731;
+}
+.category.shot {
+    background-color: #7fb88131;
+}
+.category.punch {
+    background-color: #ff795731;
+}
+.category.oldFashion {
+    background-color: #ffb04f31;
+}
+.category.nonAlcohol {
+    background-color: #5e4fff31;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .categories {
+        gap: 10px;
+    }
+
+    .category {
+        padding: 15px 30px;
+    }
+}
+    

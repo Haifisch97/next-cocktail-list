@@ -1,0 +1,132 @@
+.container {
+    margin-top: 50px;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+.textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: auto;
+}
+
+.description {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 48px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+/* .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+} */
+
+/* .userImageContainer {
+    position: relative;
+} */
+
+/* .avatar {
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+.category span {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: #00ff0931;
+}
+
+/* .userTextContainer, */
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--softTextColor);
+}
+
+.ingredientList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingedientTitle {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.ingredient {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.imageContainer {
+    flex: 1;
+    position: relative;
+    height: 450px;
+}
+
+.descriptionTitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.descriptiontText {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+@media screen and (max-width:1024px) {
+    .infoContainer {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    .imageContainer {
+        flex:auto;
+        width: 100%;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .image {
+        object-fit: contain;
+        object-position: left;
+        margin-right: auto;
+    }
+}
