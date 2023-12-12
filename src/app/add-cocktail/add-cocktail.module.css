@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.inputTitle::placeholder,
+.textarea::placeholder,
+.inputImage::placeholder,
+.ingedients input::placeholder {
+  color: var(--softTextColor);
+}
+
+.inputTitle, .textarea, .catygoryList, .inputImage, .ingedients input {
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: var(--textColor);
+  border: 2px solid var(--softBg);
+  background-color: var(--bg);
+}
+
+.form button {
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: var(--textColor);
+  border: 2px solid var(--softBg);
+  background-color: var(--bg);
+  font-size: 20px;
+}
+
+.form button:hover {
+  background-color: var(--softBg);
+  color: var(--textColor);
+  cursor: pointer;
+}

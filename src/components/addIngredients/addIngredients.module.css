@@ -1,0 +1,37 @@
+.inputs {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.inputs button {
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: var(--textColor);
+  border: 2px solid var(--softBg);
+  background-color: var(--bg);
+  font-size: 20px;
+}
+
+.inputs button:hover {
+  background-color: var(--softBg);
+  color: var(--textColor);
+  cursor: pointer;
+}
+
+.inputs input {
+  flex-grow: 1;
+}
+
+.list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item button{
+  padding:  4px;
+  margin-left: 10px;
+  font-size: 12px;
+}

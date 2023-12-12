@@ -36,7 +36,7 @@ const AuthLinks = () => {
             <Link href="/login">Login</Link>
           ) : (
             <>
-              <Link href="/add-cocktail">Add Cocktail</Link>
+              <Link href="./add-cocktail">Add Cocktail</Link>
               <span className={styles.link}>Logout</span>
             </>
           )}
